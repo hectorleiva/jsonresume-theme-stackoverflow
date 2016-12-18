@@ -35,14 +35,19 @@
 									{{address}},
 								</span>
 							{{/if}}
+                            {{#if city}}
+                                <span class="city">
+                                    {{city}},
+                                </span>
+                            {{/if}}
+                            {{#if state}}
+                                <span class="state">
+                                    {{state}}
+                                </span>
+                            {{/if}}
 							{{#if postalCode}}
 								<span class="postalCode">
-									{{postalCode}},
-								</span>
-							{{/if}}
-							{{#if city}}
-								<span class="city">
-									{{city}},
+									{{postalCode}}
 								</span>
 							{{/if}}
 							{{#if region}}

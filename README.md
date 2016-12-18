@@ -63,9 +63,10 @@ example of the extra `location` object:
 
 ```
 "location": {
-	"city": "Zürich",
-	"countryCode": "CH",
-	"region": "Switzerland"
+    "address": "123 Fake Street",
+	"city": "New Brunswick",
+    "state": "NJ",
+    "zipcode": "08903"
 } 
 ```
 example of the extra `birth` object:
