@@ -448,6 +448,7 @@ ul.courses li:hover {
 }
 
 .level.master .bar::after,
+.level.proficient .bar::after,
 .level.native.speaker .bar::after {
     background: #59C596;
     width: 10em;
